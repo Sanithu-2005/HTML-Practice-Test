@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang = "en">
+<meta charset = "UTF-8">
+<meta name = "viewport" content="width=device-width,intial scale=1.0">
+<head>
+<style>
+
+.menu_nav{
+  padding= 20px;
+  background-color=blue; 
+}
+
+.menu_nav:hover{
+  color:green;
+  background-color=white; 
+}
+
+.menu_nav ul{
+  list-style-type: none;
+  display: flex;      
+  gap: 20px;   
+  align-items: center;  
+}
+
+img{
+ max-width: 100%;
+ border-radius:4px;
+ box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+.main_table{
+ border-collapse;
+ text-align:center;
+}
+
+table,th, td {
+  border: 1px solid black; /* Sets border width, style, and color */
+  border-collapse: collapse; /* Merges adjacent borders into a single line */
+  padding: 8px; /* Adds space between border and content */
+}
+
+th{
+background-color:red;
+}
+
+fieldset{
+border: 2px solid #373a3c;
+padding: 25px;
+}
+
+legend{
+padding: 5px 20px;
+background-color: #002d72; 
+
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;            
+  padding: 10px;           
+  margin-top: 5px;
+  border: 1px solid #ccc;  
+  border-radius: 4px;
+  box-sizing: border-box;  
+}
+
+input:focus, 
+select:focus, 
+textarea:focus {
+  outline: none;
+  border-color: #002d72;
+  box-shadow: 0 0 8px rgba(0, 45, 114, 0.2);
+}
+
+input[type="submit"] {
+  background-color: #002d72;
+  color: white;
+  padding: 12px 25px;     
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease; }
+  
+input[type="submit"]:hover {
+  background-color: #0056b3; 
+}
+
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto; 
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+
+</style>
+<title> Engagement Week – Employability Support Fair </title>
+
+<head>
+<body>
+
+<header>
+<h1> Engagement Week – Employability Support Fair </h1>
+<p>Boost your career confidence and connect with industry professionals during Engagement Week!</p>
+</header>
+<main>
+
+
+<section id = "menu">
+<nav class = "menu_nav">
+<ul>
+<li><a href = "#about"> Jump to About </a></li>
+<li><a href = "#schedule"> Jump to Event Schedule </a></li>
+<li><a href = "#book"> Jump to Book Your Place </a></li>
+</ul>
+</nav>
+</section>
+
+<section id = "about">
+<h2>About the Event </h2>
+<p> The Employability Support Fair is part of Engagement Week and is designed to help students prepare for placements, internships, and graduate careers.
+</p>
+<p>
+This year’s event includes:
+</p>
+
+<ul>
+<li>CV and cover letter workshops</li>
+<li>LinkedIn profile reviews</li>
+<li>Mock interviews with industry professionals</li>
+<li>Networking opportunities with employers</li>
+</ul>
+
+<p><b>Date:</b> Wednesday 12<sup>th</sup> March, 2025 </p>
+<p><b>Time:</b> 11:00 AM – 3:00 PM</p>
+<p><b>Location:</b> Cavendish Campus Atrium</p>
+
+<img src="image_1.jpg" alt="careers" width="500" height="auto" >
+
+</section>
+
+<section id = "schedule">
+<p> Here is the schedule of sessions taking place during the day:</p>
+<table class = "main_table">
+<thead>
+<tr>
+<th>Department / Service</th>
+<th> Session </th>
+<th>Time</th>
+</tr
+
+</thead>
+
+<tbody>
+
+<tr>
+<td rowspan="1">Careers Team</td>
+<td> CV Workshop </td>
+<td>11:00 AM</td>
+</tr
+
+<tr>
+<td></td>
+<td>Interview Skills Session</td>
+<td> 12:00 PM</td>
+</tr>
+
+<tr>
+<td>Industry Panel</td>
+<td> Employer Q&A</td>
+<td>1:30 PM </td>
+</tr>
+
+<tr>
+<td>Alumni Office </td>
+<td> Graduate Success Stories</td>
+<td>2:30 PM</td>
+</tr>
+
+<tr>
+<td colspan="3" ><i>All sessions are free for registered students. Please bring your student ID.</i></td>
+</tr>
+
+</tbody>
+
+</table>
+</section>
+
+<section id = "book">
+<h2>Book Your Place</h2>
+<p>
+ 
+Ready to enhance your employability skills? Reserve your place at Engagement Week today!
+ 
+</p>
+
+<form>
+<form action="mailto:w1234567@westminster.ac.uk" method="post">
+
+<fieldset>
+<legend>
+Event Registration
+</legend>
+
+    <p>
+      <label for="user-name">Name:</label>
+      <input type="text" id="user-name" name="Name" required>
+    </p>
+
+    <p>
+      <label for="user-email">Email:</label>
+      <input type="email" id="user-email" name="Email" required>
+    </p>
+
+    <p>
+      <label for="student-id">Student ID:</label>
+      <input type="text" id="student-id" name="Student_ID" required>
+    </p>
+    
+	<p>
+      <label for="course">Course:</label>
+      <input type="text" id="course" name="Course">
+    </p>
+	
+	<p>
+      <label for="year-study">Year of study:</label>
+      <select id="year-study" name="Year_of_Study">
+        <option value="">Please select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+    </p>
+	
+	<div>
+      <p>Session preference:</p>
+      
+      <input type="radio" id="morning" name="Session" value="Morning">
+      <label for="morning">Morning sessions (11:00–1:00)</label><br>
+
+      <input type="radio" id="afternoon" name="Session" value="Afternoon">
+      <label for="afternoon">Afternoon sessions (1:00–3:00)</label><br>
+
+      <input type="radio" id="full-day" name="Session" value="Full Day">
+      <label for="full-day">Full day</label>
+    </div>
+	
+	<p>
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="Comments" placeholder="Enter any specific requirements or questions here..."></textarea>
+    </p>
+	
+	<div style="text-align: center;">
+      <input type="reset" value="Reset Form">
+      <input type="submit" value="Submit Booking">
+    </div>
+	
+	
+</fieldset>
+</form>
+
+<p>
+<a href = "https://careerzone.westminster.ac.uk/unauth" target="_blank"> University Careers Service website <a>
+<a href = "mailto:careers@westminster.ac.uk"> careers <a>
+
+</p>
+</section>
+
+
+</main>
+<footer>
+
+<p>
+© 2025 University Employability Services
+Last updated: February 2025
+ 
+For more information visit 
+<a href = "www.westminster.ac.uk" target="_blank"> University Careers Service website <a>
+
+or email 
+<a href = "mailto:careers@westminster.ac.uk"> careers <a>
+</p>
+</footer>
+
+</body>
+</html>
